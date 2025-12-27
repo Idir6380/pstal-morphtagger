@@ -1,0 +1,16 @@
+
+tp2env/
+
+__pycache__/
+
+model/*.pt
+
+
+
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+

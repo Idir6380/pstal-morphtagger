@@ -1,0 +1,4 @@
+usage: evaluate.py [-h] [-D] -p FILENAME.conllu -g FILENAME.conllu
+                   [-t FILENAME.conllu] [-c NAME] [-f NAME]
+                   [-u NAME [NAME ...]]
+evaluate.py: error: the following arguments are required: -p/--pred, -g/--gold

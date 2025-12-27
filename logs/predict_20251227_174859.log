@@ -1,0 +1,18 @@
+/home/idir6380/Desktop/pstal/TP/pstal-etu/Tp2/tp2env/lib/python3.10/site-packages/torch/_subclasses/functional_tensor.py:279: UserWarning: Failed to initialize NumPy: No module named 'numpy' (Triggered internally at /pytorch/torch/csrc/utils/tensor_numpy.cpp:84.)
+  cpu = _conversion_method_template(device=torch.device("cpu"))
+============================================================
+PREDICTION DES TRAITS MORPHOLOGIQUES
+============================================================
+Device: cpu
+
+Chargement du modele: ../model/morph_model.pt
+Traits: ['Gender', 'Number', 'PronType', 'Person', 'Mood', 'Tense', 'VerbForm', 'Definite', 'NumType', 'Voice', 'Poss', 'Polarity', 'Reflex', 'Foreign']
+
+Prediction sur: ../../sequoia/sequoia-ud.parseme.frsemcor.simple.dev
+Phrases traitees: 402
+
+Resultat sauvegarde: ../logs/predicted.conllu
+
+============================================================
+TERMINE!
+============================================================
